@@ -1,0 +1,50 @@
+$fs-mobile: 14px;
+$fs-desktop: 16px;
+
+$fw-light: 300;
+$fw-regular: 600;
+$fw-bold: 800;
+
+$screen-mobile: 375px;
+$screen-tablet: 740px;
+$screen-desktop: 1200px;
+
+$space-m-s: 11px;
+$space-m-m: 2 * $space-m-s;
+$space-m-l: 2.4 * $space-m-s;
+$space-m-xl: 2.7 * $space-m-s;
+$sx: 2;
+$space-d-s: $space-m-s * $sx;
+$space-d-m: 2 * $space-d-s;
+$space-d-l: 2.4 * $space-d-s;
+$space-d-xl: 3.3 * $space-d-s;
+
+$lm-background: hsl(0, 0%, 98%); //Very Light Gray
+$lm-element: hsl(0, 0%, 100%); //white
+$lm-text: hsl(200, 15%, 8%); //Very Dark Blue
+$lm-input: hsl(0, 0%, 52%); //Dark Gray
+$lm-shadow: 0px 2px 9px 3px rgba(240, 240, 240, 1);
+
+$dm-background: hsl(207, 26%, 17%); //Very Dark Blue
+$dm-element: hsl(209, 23%, 22%); //Dark Blue
+$dm-text: hsl(0, 0%, 100%); //white
+$dm-shadow: 0px 2px 9px 3px rgba(10, 10, 10, 0.1);
+
+@mixin box-shadow($params) {
+  -webkit-box-shadow: $params;
+  -moz-box-shadow: $params;
+  -box-shadow: $params;
+}
+@mixin mx($params) {
+  margin-left: $params;
+  margin-right: $params;
+}
+
+%clean-edge {
+  border: none;
+  outline: none;
+  background: unset;
+}
+%rounded {
+  border-radius: 4px;
+}

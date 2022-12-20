@@ -1,0 +1,68 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+body,
+button,
+input {
+  color: $lm-text;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $fs-mobile;
+  background-color: $lm-background;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.3em;
+  font-weight: $fw-bold;
+}
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+nav {
+  padding: $space-m-s $space-m-l;
+}
+input {
+  @extend %clean-edge;
+  padding: 1px 0 0;
+  &::placeholder {
+    color: $lm-input;
+  }
+}
+button {
+  @extend %clean-edge;
+  font-weight: $fw-regular;
+  font-size: 1em;
+  cursor: pointer;
+}
+select {
+  @extend %clean-edge;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: $screen-desktop) {
+  body {
+    font-size: $fs-desktop;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  nav {
+    padding: $space-d-s $space-d-xl;
+  }
+}
