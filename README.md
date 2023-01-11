@@ -35,7 +35,7 @@ In this project, users will be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-rdoEajHl4c)
-- Live Site URL: [Space Tourism Website](https://rest-countries-api-kiflanadli.vercel.app/)
+- Live Site URL: [Countries Website](https://rest-countries-api-kiflanadli.vercel.app/)
 
 ## My process
 
