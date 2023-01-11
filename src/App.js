@@ -60,7 +60,7 @@ function Home({ data }) {
   return (
     <>
       <Helmet>
-        <title>REST Countries API Project</title>
+        <title>Kiflan Adli | REST Countries API Project</title>
       </Helmet>
       <Controller handleController={handleController} />
       <section className="mx-2 grid">
